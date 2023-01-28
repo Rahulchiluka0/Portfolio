@@ -1,198 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css ">
-    <script src="https://kit.fontawesome.com/9f5e396218.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul Chiluka</title>
+    <link rel="stylesheet" href="styles.css " />
+    <script
+      src="https://kit.fontawesome.com/9f5e396218.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon.ico" />
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="RahulLogo.png" alt="logo" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>                    
-                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hi, I'm <span>Rahul</span><br>Chiluka From India.</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="Images/RahulLogo.png" alt="logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Rahul</span><br />Chiluka From India.</h1>
         </div>
+      </div>
+    </div>
+    <div class="line">
+      <div class="diamond"></div>
     </div>
     <!------------- About ------------>
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="About-me.png" alt="">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam faucibus purus in massa tempor. Nunc faucibus a pellentesque sit amet. Vel pharetra vel turpis nunc eget lorem. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Elit scelerisque mauris pellentesque pulvinar. At risus viverra adipiscing at in tellus integer. Iaculis nunc sed augue lacus viverra vitae congue. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Pellentesque eu tincidunt tortor aliquam. Velit scelerisque in dictum non consectetur a erat nam at. Massa enim nec dui nunc mattis enim ut tellus elementum.</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing</li>
-                            <li><span>Python</span><br>Coding</li>
-                            <li><span>Machine Learning</span><br>With Python</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2021 - Current</span><br>UI/UX Designing </li>
-                            <li><span>2019 - 2021</span><br>Team lead at startup LLC</li>
-                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2020 - Present</span><br>Parul University(B.tech in CSE)</li>
-                            <li><span>2018 - 2020</span><br>Sunrise Vidhyalaya(Mathematics)</li>
-                            <li><span>2018</span><br>Seventh Day Adventist High School</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <br />
+
+            <br />
+            <p>
+              An Enthusiastic Computer Science Engineer. Posses experience with
+              C/C++ and Python, Particularly skilled in Python for Machine
+              Learning. My Objective is to secure a challenging position in a
+              reputable organization to expand my learnings, knowledge, and
+              skills. Secure a responsible career opportunity to fully utilize
+              my training and skills, while making a significant contribution to
+              the success of the company
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web</span><br />Development</li>
+                <li><span>Python</span><br />Programming</li>
+                <li>
+                  <span>Machine Learning</span><br />Supervised and Unsupervised
+                  learning
+                </li>
+
+                <li><span>SAP</span><br />Analytics Cloud</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022 - Current</span><br />SAP Trainee.</li>
+                <li></li>
+                <li>
+                  <span>2022 - 1 mos.</span><br />SAP Technical Consultant
+                  Virtual Internship.
+                </li>
+                <li>
+                  <span>2022 - Current</span><br />Campus Ambassador for
+                  E2Ehiring.
+                </li>
+                <li>
+                  <span>2022 - Current</span><br />Entrepreneurship Development
+                  Centre Coordinator.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020 - Present</span><br />Parul University(B.tech in
+                  CSE)
+                </li>
+                <li><span>2020</span><br />Mobile App Development</li>
+                <li>
+                  <span>2018 - 2020</span><br />Sunrise Vidhyalaya(Mathematics)
+                </li>
+                <li>
+                  <span>2018</span><br />Seventh Day Adventist High School
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-<!----------- Services ------------->
-<div id="services">
-    <div class="container">
+    <div class="line">
+      <div class="diamond"></div>
+    </div>
+
+    <!----------- Services ------------->
+    <div id="services">
+      <div class="container">
         <h1 class="sub-title">My Services</h1>
         <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Designing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam faucibus purus in massa tempor. Nunc faucibus a pellentesque sit amet. Vel pharetra vel turpis nunc eget lorem.</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>Web Designing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam faucibus purus in massa tempor. Nunc faucibus a pellentesque sit amet. Vel pharetra vel turpis nunc eget lorem.</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>Web Designing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam faucibus purus in massa tempor. Nunc faucibus a pellentesque sit amet. Vel pharetra vel turpis nunc eget lorem.</p>
-                <a href="#">Learn more</a>
-            </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I like to code things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python Programming</h2>
+            <p>
+              There's no doubt that Python is one of the most popular
+              programming languages in the world. Over the past ten years,
+              Python has grown to become one of the top 3 languages that
+              developers use.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-brain"></i>
+            <h2>Machine Learning</h2>
+            <p>
+              Machine learning is enabling computers to tackle tasks that have,
+              until now, only been carried out by people.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!------------- Portfolio -------------->
-<div id="portfolio">
-    <div class="container">
+    <!------------- Portfolio -------------->
+    <div id="portfolio">
+      <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
-            <div class="work">
-                <img src="work-1.jpg" alt="work-1">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
+          <div class="work">
+            <img src="Images/work-1.jpg" alt="work-1" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
             </div>
-            <div class="work">
-                <img src="work-2.jpg" alt="work-2">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
+          </div>
+          <div class="work">
+            <img src="Images/Cricinfo.jpg" alt="work-2" />
+            <div class="layer">
+              <h2>Cricinfo</h2>
+              <p>
+                This is a Telegram chatbot used to fetch live-scores of cricket
+                matches all over the world.. <br /><br />
+                You have to run the main.py file Search for @bhaghubot in
+                telegram to start my chatbot. To start type /start To select a
+                particular match, Enter live1, live2, live3...
+              </p>
+              <a href="https://github.com/Rahulchiluka0/Cricinfo.git"
+                ><i class="fa-solid fa-link"></i
+              ></a>
             </div>
-            <div class="work">
-                <img src="work-3.jpg" alt="work-3">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
+          </div>
+          <div class="work">
+            <img src="Images/work-3.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
             </div>
+          </div>
         </div>
         <a href="#" class="btn">See more</a>
+      </div>
     </div>
-</div>
-<!------------- Contact -------------->
+    <!------------- Contact -------------->
 
-<div id="contact">
-    <div class="container">
+    <div id="contact">
+      <div class="container">
         <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
-                <p><i class="fa-solid fa-phone"></i> 9328337419</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/rahul.chiluka.18?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href="https://www.instagram.com/rahulchiluka.0/"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/rahul-chiluka-8654a9224/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://twitter.com/RahulChiluka4"><i class="fa-brands fa-square-twitter"></i></a>
-                </div>
-                <a href="RAHUL-CHILUKA-RESUME.pdf.pdf" download class="btn btn2">Download CV</a>
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> rahulchiluka0425@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> 9328337419</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/rahul.chiluka.18?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/rahulchiluka.0/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/rahul-chiluka-8654a9224/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/RahulChiluka4"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
             </div>
-            <div class="contact-right">
-                <form method="post">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-            </div>
+            <a href="RAHUL-CHILUKA-RESUME.pdf.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form method="post">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
     <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
 
     <script>
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right="0";
-        }
-        function closemenu(){
-            sidemenu.style.right="-200px";
-        }
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
 
-<script src="https://smtpjs.com/v3/smtp.js">
-
-</script>
-<script type="text/javascript"> //<![CDATA[
-  var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
-  document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
-//]]></script>
-<script language="JavaScript" type="text/javascript">
-  TrustLogo("https://www.positivessl.com/images/seals/positivessl_trust_seal_lg_222x54.png", "POSDV", "none");
-</script>
-</body>
+  </body>
 </html>
