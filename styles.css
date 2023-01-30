@@ -119,14 +119,14 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    background-image: url('Images/About-me2.png');
+    background-image: url('About-me2.png');
     width: 100%;
     border-radius: 15px;
     flex-basis: 35%;
     cursor: pointer;
 }
 .about-col-1:hover{
-    background-image: url('Images/About-me-hover2.jpg');
+    background-image: url('About-me-hover2.jpg');
 }
 
 .about-col-2{
@@ -355,7 +355,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/PhoneMainPagePic.png);
+        background-image: url('PhoneMainPagePic.png');
     }
     .header-text{
         margin-top: 100%;
